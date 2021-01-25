@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/uniosReactPortfolio/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/uniosReactPortfolio/static/js/main.62de5006.chunk.js",
+    "main.js.map": "/uniosReactPortfolio/static/js/main.62de5006.chunk.js.map",
+    "runtime-main.js": "/uniosReactPortfolio/static/js/runtime-main.b45b2848.js",
+    "runtime-main.js.map": "/uniosReactPortfolio/static/js/runtime-main.b45b2848.js.map",
+    "static/js/2.7be68ebe.chunk.js": "/uniosReactPortfolio/static/js/2.7be68ebe.chunk.js",
+    "static/js/2.7be68ebe.chunk.js.map": "/uniosReactPortfolio/static/js/2.7be68ebe.chunk.js.map",
+    "static/js/3.146150de.chunk.js": "/uniosReactPortfolio/static/js/3.146150de.chunk.js",
+    "static/js/3.146150de.chunk.js.map": "/uniosReactPortfolio/static/js/3.146150de.chunk.js.map",
+    "index.html": "/uniosReactPortfolio/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/uniosReactPortfolio/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.7be68ebe.chunk.js.LICENSE.txt": "/uniosReactPortfolio/static/js/2.7be68ebe.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/uniosReactPortfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b45b2848.js",
+    "static/js/2.7be68ebe.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.62de5006.chunk.js"
+  ]
+}
