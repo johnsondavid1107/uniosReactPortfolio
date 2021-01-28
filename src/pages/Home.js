@@ -7,7 +7,7 @@ import NYC from "../components/NYC"
 
 
 
-function Home() {
+function Portfolio() {
 
     const styles = {
         jumbotron: {
@@ -20,15 +20,22 @@ function Home() {
         images: {
             background: "white",
             width: "100%"
+        },
+        techList: {
+            display: "inline-block",
+
+        }, nycImage: {
+            padding: 0
         }
     }
     return (
-        <div className="container" style={styles.topContainer}>
+        <div className="container-fluid" style={styles.topContainer}>
             <div className="row">
                 <div className="col-sm-12">
                     <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
                         <div className="container">
-                            <h1 className="display-4"><strong>Hello!... and Welcome! </strong> </h1>
+                            <h1 className="display-3"><strong>My Portfolio </strong> </h1>
+                            <h4 className="display-4"><strong>Languages I speak...</strong> </h4>
 
                         </div>
                     </div>
@@ -57,16 +64,19 @@ function Home() {
                 <div className="col-sm-12">
                     <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
                         <div className="container">
-                            <h1 className="display-4"><strong>I am David Johnson</strong></h1>
-                            <p className="lead">Full-Stack Web Devloper, professional debugger, team-player and fun to be around!</p>
+                            <h1 className="display-4"><strong>Technologies I also use</strong></h1>
+                            <ul>
+                                <li style={styles.techList}> One</li>
+                                <li style={styles.techList}> two</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="row">
-                <div className="col-sm-12">
-                    <NYC />
-                </div>
+
+                <NYC />
+
             </div>
 
 
@@ -76,4 +86,4 @@ function Home() {
 
 
 }
-export default Home
+export default Portfolio

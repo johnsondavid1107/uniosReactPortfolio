@@ -15,14 +15,10 @@ function NYC() {
     }
 
     return (
-        <div>
-            <Grid container spacing={3}>
-                <Grid item xs={12}>
-                    <img src={picture} alt="NYC" style={styles.resize} />
-                </Grid>
+        <div className="container-fluid">
 
+            <img src={picture} alt="NYC" style={styles.resize} />
 
-            </Grid>
         </div>
     )
 

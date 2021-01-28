@@ -1,8 +1,8 @@
 import './App.css';
-import Portfolio from "./pages/Portfolio"
+import Portfolio from "./pages/Test"
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
-import PTAG from "./components/PTAG"
+import Projects from "./components/Projects"
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         {/* <Navbar />
       <Portfolio /> */}
       </div>
-      <PTAG />
+      <Projects />
 
     </div>
 
