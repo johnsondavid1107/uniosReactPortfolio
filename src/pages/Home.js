@@ -1,5 +1,9 @@
 import React from "react"
 import HTML from "../components/html.svg"
+import picNode from "../components/picNode.png"
+import CSS3 from "../components/css.png"
+import JSpic from "../components/js.png"
+import NYC from "../components/NYC"
 
 
 
@@ -12,6 +16,10 @@ function Home() {
         },
         topContainer: {
 
+        },
+        images: {
+            background: "white",
+            width: "100%"
         }
     }
     return (
@@ -27,16 +35,23 @@ function Home() {
                 </div>
             </div>
             <div className="row">
-                <div className="col-sm-12">
 
-
-
-                    <img src={HTML} alt="logo"></img>
-
-
-
-
+                <div className="col-sm-3">
+                    <img src={HTML} alt="logo" style={styles.images}></img>
                 </div>
+                <div className="col-sm-3">
+                    <img src={picNode} alt="node" style={styles.images}></img>
+                </div>
+                <div className="col-sm-3">
+                    <img src={CSS3} alt="css" style={styles.images}></img>
+                </div>
+                <div className="col-sm-3">
+                    <img src={JSpic} alt="css" style={styles.images}></img>
+                </div>
+
+
+
+
             </div>
             <div className="row">
                 <div className="col-sm-12">
@@ -48,6 +63,12 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className="row">
+                <div className="col-sm-12">
+                    <NYC />
+                </div>
+            </div>
+
 
         </div>
     )
