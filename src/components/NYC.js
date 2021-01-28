@@ -1,8 +1,7 @@
 import React from "react"
-import Container from "@material-ui/core/Container"
-import picture from "./nyc.jpg"
-import Grid from "@material-ui/core/Grid"
-import { cover } from "polished"
+
+import picture from "./photos/nyc.jpg"
+
 
 
 function NYC() {

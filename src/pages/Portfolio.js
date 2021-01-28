@@ -1,9 +1,10 @@
 import React from "react"
-import HTML from "../components/html.svg"
-import picNode from "../components/picNode.png"
-import CSS3 from "../components/css.png"
-import JSpic from "../components/js.png"
+import HTML from "../components/photos/html.svg"
+import picNode from "../components/photos/picNode.png"
+import CSS3 from "../components/photos/css.png"
+import JSpic from "../components/photos/js.png"
 import NYC from "../components/NYC"
+import Burger from "../components/photos/eatDaBurger.png"
 
 
 
@@ -15,6 +16,7 @@ function Portfolio() {
             color: "white"
         },
         topContainer: {
+            padding: 0
 
         },
         images: {
@@ -24,8 +26,6 @@ function Portfolio() {
         techList: {
             display: "inline-block",
 
-        }, nycImage: {
-            padding: 0
         }
     }
     return (
