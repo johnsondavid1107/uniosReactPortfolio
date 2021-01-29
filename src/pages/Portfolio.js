@@ -66,8 +66,15 @@ function Portfolio() {
                         <div className="container">
                             <h1 className="display-4"><strong>Technologies I also use</strong></h1>
                             <ul>
-                                <li style={styles.techList}> One</li>
-                                <li style={styles.techList}> two</li>
+                                <li style={styles.techList}> Node.JS |</li>
+                                <li style={styles.techList}> Express.JS |</li>
+                                <li style={styles.techList}> MongoDB |</li>
+                                <li style={styles.techList}> Mongoose |</li>
+                                <li style={styles.techList}> MySQL |</li>
+                                <li style={styles.techList}> Heroku |</li>
+                                <li style={styles.techList}> Git |</li>
+                                <li style={styles.techList}> npm |</li>
+
                             </ul>
                         </div>
                     </div>
