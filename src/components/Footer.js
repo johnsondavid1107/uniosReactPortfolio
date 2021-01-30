@@ -8,13 +8,16 @@ function Footer() {
             width: "12%",
             padding: "10px",
             marginTop: "25px"
+        },
+        footerBackground: {
+            background: "white"
         }
 
     }
 
     return (
         < div className="row" >
-            <div className="col-12 text-center">
+            <div className="col-12 text-center" style={styles.footerBackground}>
                 <img src={github} alt="github logo" style={styles.footerImage}></img>
                 <img src={linkedIN} alt="github logo" style={styles.footerImage}></img>
 
