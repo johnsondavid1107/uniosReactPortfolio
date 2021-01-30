@@ -3,8 +3,13 @@ import HTML from "../components/photos/html.svg"
 import picNode from "../components/photos/picNode.png"
 import CSS3 from "../components/photos/css.png"
 import JSpic from "../components/photos/js.png"
+import reactBW from "../components/photos/reactBW.png"
+import MYSQL from '../components/photos/MYSQL.png'
 import NYC from "../components/NYC"
-import Burger from "../components/photos/eatDaBurger.png"
+import Projects from "../components/Projects"
+
+
+
 
 
 
@@ -21,7 +26,7 @@ function Portfolio() {
         },
         images: {
             background: "white",
-            width: "100%"
+            width: "50%"
         },
         techList: {
             display: "inline-block",
@@ -43,18 +48,21 @@ function Portfolio() {
             </div>
             <div className="row">
 
-                <div className="col-sm-3">
+                <div className="col-4">
                     <img src={HTML} alt="logo" style={styles.images}></img>
+                    <img src={reactBW} alt="logo" style={styles.images}></img>
+
                 </div>
-                <div className="col-sm-3">
+                <div className="col-4">
                     <img src={picNode} alt="node" style={styles.images}></img>
+                    <img src={MYSQL} alt="node" style={styles.images}></img>
+
                 </div>
-                <div className="col-sm-3">
+                <div className="col-4">
                     <img src={CSS3} alt="css" style={styles.images}></img>
-                </div>
-                <div className="col-sm-3">
                     <img src={JSpic} alt="css" style={styles.images}></img>
                 </div>
+
 
 
 
@@ -66,16 +74,20 @@ function Portfolio() {
                         <div className="container">
                             <h1 className="display-4"><strong>Technologies I also use</strong></h1>
                             <ul>
-                                <li style={styles.techList}> Node.JS |</li>
-                                <li style={styles.techList}> Express.JS |</li>
-                                <li style={styles.techList}> MongoDB |</li>
-                                <li style={styles.techList}> Mongoose |</li>
-                                <li style={styles.techList}> MySQL |</li>
-                                <li style={styles.techList}> Heroku |</li>
-                                <li style={styles.techList}> Git |</li>
-                                <li style={styles.techList}> npm |</li>
+                                <li style={styles.techList}> <strong>Node.JS |</strong> </li>
+                                <li style={styles.techList}> <strong>Express.JS |</strong> </li>
+                                <li style={styles.techList}> <strong>MongoDB |</strong> </li>
+                                <li style={styles.techList}> <strong>Mongoose |</strong> </li>
+                                <li style={styles.techList}> <strong>MySQL |</strong> </li>
+                                <li style={styles.techList}> <strong>Bootstrap 4 |</strong> </li>
+                                <li style={styles.techList}> <strong>Heroku |</strong> </li>
+                                <li style={styles.techList}> <strong>Git |</strong> </li>
+                                <li style={styles.techList}> <strong>npm |</strong> </li>
+                                <li style={styles.techList}> <strong>Sequelize |</strong> </li>
+                                <li style={styles.techList}> <strong>ORM |</strong> </li>
 
                             </ul>
+                            <h4>See below for some examples!</h4>
                         </div>
                     </div>
                 </div>
@@ -87,7 +99,9 @@ function Portfolio() {
             </div>
 
 
+            <Projects />
         </div>
+
     )
 
 

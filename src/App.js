@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from "./components/Navbar"
+import Home from "./pages/Home.js"
 import Portfolio from "./pages/Portfolio"
 import Projects from "./components/Projects"
 
@@ -12,12 +12,11 @@ function App() {
   }
   return (
     <div>
-      <div style={styles.BB}>
+      {/* <div style={styles.BB}>
         <Portfolio />
-        {/* <Navbar />
-      <Portfolio /> */}
-      </div>
-      <Projects />
+      </div> */}
+      <Home />
+
 
     </div>
 

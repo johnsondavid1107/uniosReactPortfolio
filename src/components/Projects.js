@@ -23,7 +23,8 @@ function Projects() {
 
         },
         raiseRow: {
-            marginTop: "300px"
+            marginTop: "300px",
+            backgroundColor: "white"
         },
         middle: {
             position: "absolute",
