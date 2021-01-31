@@ -11,21 +11,31 @@ function Navbar() {
     const styles = {
         navColor: {
             color: "gray"
+        },
+        back: {
+            backgroundColor: "black",
+            color: "white"
+        },
+        noPadding: {
+            padding: 0
         }
     }
 
     return (
         <div className="container-fluid">
             <div className="row">
-                <div className="col-12 text-center">
-                    <ul className="nav nav-tabs">
+                <div className="col-12 text-center" style={styles.noPadding}>
+                    <ul className="nav nav-tabs" style={styles.back}>
                         <li className="nav-item">
-                            <Link to="/portfolio" >
+                            <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} >
                                 Portfolio
                        </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#" style={styles.navColor}>Nothing</a>
+                            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} >
+                                Home
+                       </Link>
+
                         </li>
 
                     </ul>

@@ -1,31 +1,40 @@
+import React from "react"
 import github from "../components/photos/github.png"
 import linkedIN from "../components/photos/linkedIN.png"
+import "./portfolio.css"
+import { SiGithub } from 'react-icons/si'
+import { GrLinkedin } from 'react-icons/gr'
+import { IconContext } from "react-icons";
 
 
-function Footer() {
-    const styles = {
-        footerImage: {
-            width: "12%",
-            padding: "10px",
-            marginTop: "25px"
-        },
-        footerBackground: {
-            background: "white"
+class Footer extends React.Component {
+
+
+    render() {
+        const styles = {
+            footerBackground: {
+                background: "white"
+            },
+            footerPadding: {
+                padding: "10px"
+            }
+
         }
+        return (
+            <IconContext.Provider value={{ size: "6em" }}>
+                < div className="row" >
+                    <div className="col-12 text-center" style={styles.footerBackground}>
 
+                        <a href="https://github.com/johnsondavid1107"><SiGithub className="gitHub" style={styles.footerPadding} /></a>
+
+                        <a href="www.linkedin.com/in/johnsondavid1107
+"><GrLinkedin className="linkedIn" style={styles.footerPadding} /></a>
+
+                    </div>
+                </div >
+            </IconContext.Provider>
+        )
     }
-
-    return (
-        < div className="row" >
-            <div className="col-12 text-center" style={styles.footerBackground}>
-                <img src={github} alt="github logo" style={styles.footerImage}></img>
-                <img src={linkedIN} alt="github logo" style={styles.footerImage}></img>
-
-            </div>
-        </div >
-
-    )
-
 }
 export default Footer
 

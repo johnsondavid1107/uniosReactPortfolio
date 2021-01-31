@@ -1,28 +1,20 @@
 
-#cack:hover{
-    opacity: .5 !important;
-    color: red
+.makeAppear:hover {
+    opacity: 1 !important;
+    background-color: lightgray;
+   
+    
+    
 }
 
+.gitHub:hover {
+background-color: black;
+border-radius: 90px;
 
-.pic:hover {
-opacity: .2;
-transition: .5s ease;
-background-color: black
-  
-};
-/* #cack img{
-    color: red
-} */
-
-/* .middle {
-    transition: .5s ease;
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  } */
-  
+}
+.linkedIn:hover {
+    background-color: black;
+    border-radius: 5px;
+    
+    
+    }

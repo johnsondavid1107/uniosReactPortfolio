@@ -31,74 +31,77 @@ function Portfolio() {
         techList: {
             display: "inline-block",
 
-        }
+        },
+
     }
     return (
-        <div className="container-fluid" style={styles.topContainer}>
-            <div className="row">
-                <div className="col-sm-12">
-                    <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
-                        <div className="container">
-                            <h1 className="display-3"><strong>My Portfolio </strong> </h1>
-                            <h4 className="display-4"><strong>Languages I speak...</strong> </h4>
+        <div>
+            <div className="container-fluid" style={styles.topContainer}>
+                <div className="row">
+                    <div className="col-sm-12">
+                        <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
+                            <div className="container">
+                                <h1 className="display-3"><strong>My Portfolio </strong> </h1>
+                                <h4 className="display-4"><strong>Languages I speak...</strong> </h4>
 
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="row">
+                <div className="row">
 
-                <div className="col-4">
-                    <img src={HTML} alt="logo" style={styles.images}></img>
-                    <img src={reactBW} alt="logo" style={styles.images}></img>
+                    <div className="col-4">
+                        <img src={HTML} alt="logo" style={styles.images}></img>
+                        <img src={reactBW} alt="logo" style={styles.images}></img>
+
+                    </div>
+                    <div className="col-4">
+                        <img src={picNode} alt="node" style={styles.images}></img>
+                        <img src={MYSQL} alt="node" style={styles.images}></img>
+
+                    </div>
+                    <div className="col-4">
+                        <img src={CSS3} alt="css" style={styles.images}></img>
+                        <img src={JSpic} alt="css" style={styles.images}></img>
+                    </div>
+
+
+
+
 
                 </div>
-                <div className="col-4">
-                    <img src={picNode} alt="node" style={styles.images}></img>
-                    <img src={MYSQL} alt="node" style={styles.images}></img>
+                <div className="row">
+                    <div className="col-sm-12">
+                        <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
+                            <div className="container">
+                                <h1 className="display-4"><strong>Technologies I also use</strong></h1>
+                                <ul>
+                                    <li style={styles.techList}> <strong>Express.JS |</strong> </li>
+                                    <li style={styles.techList}> <strong>MongoDB |</strong> </li>
+                                    <li style={styles.techList}> <strong>Mongoose |</strong> </li>
+                                    <li style={styles.techList}> <strong>MySQL |</strong> </li>
+                                    <li style={styles.techList}> <strong>Bootstrap 4 |</strong> </li>
+                                    <li style={styles.techList}> <strong>Heroku |</strong> </li>
+                                    <li style={styles.techList}> <strong>Git |</strong> </li>
+                                    <li style={styles.techList}> <strong>npm |</strong> </li>
+                                    <li style={styles.techList}> <strong>Sequelize |</strong> </li>
+                                    <li style={styles.techList}> <strong>ORM </strong> </li>
 
-                </div>
-                <div className="col-4">
-                    <img src={CSS3} alt="css" style={styles.images}></img>
-                    <img src={JSpic} alt="css" style={styles.images}></img>
-                </div>
-
-
-
-
-
-            </div>
-            <div className="row">
-                <div className="col-sm-12">
-                    <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
-                        <div className="container">
-                            <h1 className="display-4"><strong>Technologies I also use</strong></h1>
-                            <ul>
-                                <li style={styles.techList}> <strong>Node.JS |</strong> </li>
-                                <li style={styles.techList}> <strong>Express.JS |</strong> </li>
-                                <li style={styles.techList}> <strong>MongoDB |</strong> </li>
-                                <li style={styles.techList}> <strong>Mongoose |</strong> </li>
-                                <li style={styles.techList}> <strong>MySQL |</strong> </li>
-                                <li style={styles.techList}> <strong>Bootstrap 4 |</strong> </li>
-                                <li style={styles.techList}> <strong>Heroku |</strong> </li>
-                                <li style={styles.techList}> <strong>Git |</strong> </li>
-                                <li style={styles.techList}> <strong>npm |</strong> </li>
-                                <li style={styles.techList}> <strong>Sequelize |</strong> </li>
-                                <li style={styles.techList}> <strong>ORM |</strong> </li>
-
-                            </ul>
-                            <h4>See below for some examples!</h4>
+                                </ul>
+                                <h4>See below for some examples!</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div className="row">
+
+                    <NYC />
+
+                </div>
+
+
+
             </div>
-            <div className="row">
-
-                <NYC />
-
-            </div>
-
-
             <Projects />
         </div>
 
