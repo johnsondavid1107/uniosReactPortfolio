@@ -32,7 +32,7 @@ function Projects() {
 
         },
         raiseRow: {
-            marginTop: "300px",
+            marginTop: "0px",
             backgroundColor: "white"
         },
         middle: {
@@ -58,7 +58,7 @@ function Projects() {
     return (
         <div className="container-fluid">
             <div style={styles.box}></div>
-            <div className="row text-center tryThis" style={styles.raiseRow}>
+            <div className="row text-center" style={styles.raiseRow}>
                 <div className="col-6 col-sm-6 col-md-4 col-xl-3" style={styles.imageTest}>
                     <a href="https://johnsondavid1107.github.io/albusterEmployeeDirectory/" target="_blank"><img src={EmployeeDirectory} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
                     <h3 className="makeAppear" style={styles.middle}>Employee Directory</h3>

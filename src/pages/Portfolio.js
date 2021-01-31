@@ -76,16 +76,8 @@ function Portfolio() {
                             <div className="container">
                                 <h1 className="display-4"><strong>Technologies I also use</strong></h1>
                                 <ul>
-                                    <li style={styles.techList}> <strong>Express.JS |</strong> </li>
-                                    <li style={styles.techList}> <strong>MongoDB |</strong> </li>
-                                    <li style={styles.techList}> <strong>Mongoose |</strong> </li>
-                                    <li style={styles.techList}> <strong>MySQL |</strong> </li>
-                                    <li style={styles.techList}> <strong>Bootstrap 4 |</strong> </li>
-                                    <li style={styles.techList}> <strong>Heroku |</strong> </li>
-                                    <li style={styles.techList}> <strong>Git |</strong> </li>
-                                    <li style={styles.techList}> <strong>npm |</strong> </li>
-                                    <li style={styles.techList}> <strong>Sequelize |</strong> </li>
-                                    <li style={styles.techList}> <strong>ORM </strong> </li>
+                                    <li style={styles.techList}> <strong>Express.JS | MongoDB | Mongoose | MySQL | Bootstrap 4 | Heroku | Git | npm | Sequelize | ORM </strong> </li>
+
 
                                 </ul>
                                 <h4>See below for some examples!</h4>
@@ -94,9 +86,10 @@ function Portfolio() {
                     </div>
                 </div>
                 <div className="row">
+                    <div className="col-12">
 
-                    <NYC />
-
+                        <NYC />
+                    </div>
                 </div>
 
 
