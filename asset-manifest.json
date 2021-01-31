@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/uniosReactPortfolio/static/css/main.d929fe42.chunk.css",
-    "main.js": "/uniosReactPortfolio/static/js/main.ec3add08.chunk.js",
-    "main.js.map": "/uniosReactPortfolio/static/js/main.ec3add08.chunk.js.map",
+    "main.css": "/uniosReactPortfolio/static/css/main.31a44697.chunk.css",
+    "main.js": "/uniosReactPortfolio/static/js/main.28293bad.chunk.js",
+    "main.js.map": "/uniosReactPortfolio/static/js/main.28293bad.chunk.js.map",
     "runtime-main.js": "/uniosReactPortfolio/static/js/runtime-main.ee89d1e7.js",
     "runtime-main.js.map": "/uniosReactPortfolio/static/js/runtime-main.ee89d1e7.js.map",
     "static/css/2.1c44f44c.chunk.css": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css",
@@ -12,15 +12,15 @@
     "static/js/3.e9e560bb.chunk.js.map": "/uniosReactPortfolio/static/js/3.e9e560bb.chunk.js.map",
     "index.html": "/uniosReactPortfolio/index.html",
     "static/css/2.1c44f44c.chunk.css.map": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css.map",
-    "static/css/main.d929fe42.chunk.css.map": "/uniosReactPortfolio/static/css/main.d929fe42.chunk.css.map",
+    "static/css/main.31a44697.chunk.css.map": "/uniosReactPortfolio/static/css/main.31a44697.chunk.css.map",
     "static/js/2.4d858520.chunk.js.LICENSE.txt": "/uniosReactPortfolio/static/js/2.4d858520.chunk.js.LICENSE.txt",
     "static/media/EmployeeDirectory.f7e7eb59.png": "/uniosReactPortfolio/static/media/EmployeeDirectory.f7e7eb59.png",
     "static/media/bookBook.c4b2602a.png": "/uniosReactPortfolio/static/media/bookBook.c4b2602a.png",
+    "static/media/dayPlanner.20622f39.png": "/uniosReactPortfolio/static/media/dayPlanner.20622f39.png",
     "static/media/eatDaBurger.e4bd8e8b.png": "/uniosReactPortfolio/static/media/eatDaBurger.e4bd8e8b.png",
     "static/media/fitnessTracker.0c35f60d.png": "/uniosReactPortfolio/static/media/fitnessTracker.0c35f60d.png",
     "static/media/html.2b01d918.svg": "/uniosReactPortfolio/static/media/html.2b01d918.svg",
     "static/media/js.25db9ebb.png": "/uniosReactPortfolio/static/media/js.25db9ebb.png",
-    "static/media/linkedIN.f80a00a6.png": "/uniosReactPortfolio/static/media/linkedIN.f80a00a6.png",
     "static/media/noteTaker.2e52e9a0.png": "/uniosReactPortfolio/static/media/noteTaker.2e52e9a0.png",
     "static/media/nyc.a5e79e7d.jpg": "/uniosReactPortfolio/static/media/nyc.a5e79e7d.jpg",
     "static/media/picNode.017168ec.png": "/uniosReactPortfolio/static/media/picNode.017168ec.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.ee89d1e7.js",
     "static/css/2.1c44f44c.chunk.css",
     "static/js/2.4d858520.chunk.js",
-    "static/css/main.d929fe42.chunk.css",
-    "static/js/main.ec3add08.chunk.js"
+    "static/css/main.31a44697.chunk.css",
+    "static/js/main.28293bad.chunk.js"
   ]
 }
