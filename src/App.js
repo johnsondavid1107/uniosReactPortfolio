@@ -1,7 +1,6 @@
 import './App.css';
 import Home from "./pages/Home.js"
 import Portfolio from "./pages/Portfolio"
-import Projects from "./components/Projects"
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"

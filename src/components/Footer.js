@@ -1,6 +1,4 @@
 import React from "react"
-import github from "../components/photos/github.png"
-import linkedIN from "../components/photos/linkedIN.png"
 import "./portfolio.css"
 import { SiGithub } from 'react-icons/si'
 import { GrLinkedin } from 'react-icons/gr'
