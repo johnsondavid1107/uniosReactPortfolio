@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uniosReactPortfolio/static/css/main.31a44697.chunk.css",
-    "main.js": "/uniosReactPortfolio/static/js/main.28293bad.chunk.js",
-    "main.js.map": "/uniosReactPortfolio/static/js/main.28293bad.chunk.js.map",
+    "main.js": "/uniosReactPortfolio/static/js/main.eee254f8.chunk.js",
+    "main.js.map": "/uniosReactPortfolio/static/js/main.eee254f8.chunk.js.map",
     "runtime-main.js": "/uniosReactPortfolio/static/js/runtime-main.ee89d1e7.js",
     "runtime-main.js.map": "/uniosReactPortfolio/static/js/runtime-main.ee89d1e7.js.map",
     "static/css/2.1c44f44c.chunk.css": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css",
@@ -25,7 +25,7 @@
     "static/media/nyc.a5e79e7d.jpg": "/uniosReactPortfolio/static/media/nyc.a5e79e7d.jpg",
     "static/media/picNode.017168ec.png": "/uniosReactPortfolio/static/media/picNode.017168ec.png",
     "static/media/reactBW.028a987c.png": "/uniosReactPortfolio/static/media/reactBW.028a987c.png",
-    "static/media/stickMan.f04ce2dc.jpg": "/uniosReactPortfolio/static/media/stickMan.f04ce2dc.jpg",
+    "static/media/stickMan.e8fd6f20.jpg": "/uniosReactPortfolio/static/media/stickMan.e8fd6f20.jpg",
     "static/media/weatherApp.d561c041.png": "/uniosReactPortfolio/static/media/weatherApp.d561c041.png",
     "static/media/whoseScreen.eada8575.png": "/uniosReactPortfolio/static/media/whoseScreen.eada8575.png"
   },
@@ -34,6 +34,6 @@
     "static/css/2.1c44f44c.chunk.css",
     "static/js/2.4d858520.chunk.js",
     "static/css/main.31a44697.chunk.css",
-    "static/js/main.28293bad.chunk.js"
+    "static/js/main.eee254f8.chunk.js"
   ]
 }
