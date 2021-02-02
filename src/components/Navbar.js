@@ -27,7 +27,7 @@ function Navbar() {
                 <div className="col-12 text-center" style={styles.noPadding}>
                     <ul className="nav nav-tabs" style={styles.back}>
                         <li className="nav-item">
-                            <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} >
+                            <Link to="/uniosReactPortfolio/portfolio" className={location.pathname === "/uniosReactPortfolio/portfolio" ? "nav-link active" : "nav-link"} >
                                 Portfolio
                        </Link>
                         </li>

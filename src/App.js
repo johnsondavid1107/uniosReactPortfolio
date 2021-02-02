@@ -21,7 +21,7 @@ function App() {
         <Portfolio />
       </div> */}
         <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/uniosReactPortfolio/portfolio" component={Portfolio} />
         <Route exact path="/uniosReactPortfolio" component={Home} />
 
 

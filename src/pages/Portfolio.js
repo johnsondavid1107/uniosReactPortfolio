@@ -76,7 +76,7 @@ function Portfolio() {
                             <div className="container">
                                 <h1 className="display-4"><strong>Technologies I also use</strong></h1>
                                 <ul>
-                                    <li style={styles.techList}> <strong>Express.JS | MongoDB | Mongoose | MySQL | Bootstrap 4 | Heroku | Git | npm | Sequelize | ORM </strong> </li>
+                                    <li style={styles.techList}> <strong>Express.JS | MongoDB | Mongoose | MySQL | Bootstrap 4 | Heroku | Git | npm | Sequelize | ORM | API | Local Storage | CRUD</strong> </li>
 
 
                                 </ul>

@@ -27,7 +27,7 @@ function Projects() {
             border: "100px"
         },
         box: {
-            width: "300px",
+            width: "150px",
             background: "white"
 
         },
@@ -61,38 +61,36 @@ function Projects() {
             <div className="row text-center" style={styles.raiseRow}>
                 <div className="col-6 col-sm-6 col-md-4 col-xl-3" style={styles.imageTest}>
                     <a href="https://johnsondavid1107.github.io/albusterEmployeeDirectory/" target="_blank"><img src={EmployeeDirectory} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <h3 className="makeAppear" style={styles.middle}>Employee Directory</h3>
+                    <a href="https://johnsondavid1107.github.io/albusterEmployeeDirectory/" target="_blank"> <h3 className="makeAppear" style={styles.middle}>Employee Directory: React Application</h3></a>
 
                 </div>
                 <div className="col-6 col-sm-6 col-md-4 col-xl-3" style={styles.imageTest}>
                     <a href="https://hidden-stream-16175.herokuapp.com/" target="_blank"><img src={Burger} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <h3 className="makeAppear" style={styles.middle} >Eat-Da-Burga</h3>
+                    <a href="https://hidden-stream-16175.herokuapp.com/" target="_blank"><h3 className="makeAppear" style={styles.middle} >Eat-Da-Burger: Heroku</h3></a>
                 </div>
                 <div className="col-6 col-sm-6 col-md-4 col-xl-3" style={styles.imageTest}>
                     <a href="https://johnsondavid1107.github.io/EsprayDayPlanner/" target="_blank"><img src={dayPlanner} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <h3 className="makeAppear" style={styles.middle} >Day Planner</h3>
+                    <a href="https://johnsondavid1107.github.io/EsprayDayPlanner/" target="_blank"><h3 className="makeAppear" style={styles.middle} >Day Planner: Local Storage</h3></a>
                 </div>
                 <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href=" https://swinstream-fitness-tracker.herokuapp.com/
-
-"target="_blank"><img src={fitnessTracker} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <h3 className="makeAppear" style={styles.middle} >Fitness Tracker</h3>
+                    <a href=" https://swinstream-fitness-tracker.herokuapp.com/" target="_blank"><img src={fitnessTracker} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
+                    <a href=" https://swinstream-fitness-tracker.herokuapp.com/" target="_blank"><h3 className="makeAppear" style={styles.middle} >Fitness Tracker: MongoDB</h3></a>
                 </div>
                 <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
                     <a href="https://boiling-woodland-15894.herokuapp.com/" target="_blank"> <img src={noteTaker} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <h3 className="makeAppear" style={styles.middle} >Note Taker</h3>
+                    <a href="https://boiling-woodland-15894.herokuapp.com/" target="_blank"> <h3 className="makeAppear" style={styles.middle} >Note Taker: CRUD</h3> </a>
                 </div>
                 <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
                     <a href="https://johnsondavid1107.github.io/WhoseScreenIsItAnyway/" target="_blank"><img src={whoseScreen} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <h3 className="makeAppear" style={styles.middle} >Whose Screen Is It Anyway..</h3>
+                    <a href="https://johnsondavid1107.github.io/WhoseScreenIsItAnyway/" target="_blank"> <h3 className="makeAppear" style={styles.middle} >Whose Screen Is It Anyway..:Local Storage</h3></a>
                 </div>
                 <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
                     <a href="https://johnsondavid1107.github.io/taperWeatherApp/" target="_blank"><img src={weatherApp} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <h3 className="makeAppear" style={styles.middle} >Weather App</h3>
+                    <a href="https://johnsondavid1107.github.io/taperWeatherApp/" target="_blank"><h3 className="makeAppear" style={styles.middle} >Weather App: API</h3></a>
                 </div>
                 <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
                     <a href="https://pacific-harbor-27397.herokuapp.com/login" target="_blank"><img src={bookBook} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <h3 className="makeAppear" style={styles.middle} >bookBook</h3>
+                    <a href="https://pacific-harbor-27397.herokuapp.com/login" target="_blank"> <h3 className="makeAppear" style={styles.middle} >bookBook:MYSQL</h3></a>
                 </div>
 
 
@@ -103,7 +101,7 @@ function Projects() {
                     <h3 style={styles.quoteColor}>"In the city that never sleeps, Always Be Coding..." -Someone said somewhere at somepoint..</h3>
                 </div>
             </div>
-        </div>
+        </div >
 
     )
 }
