@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import stickMan from "../components/photos/stickMan.jpg"
+
 import { AiOutlineMail } from "react-icons/ai"
 import { CgFileDocument } from "react-icons/cg"
 import Card from "@material-ui/core/Card"
@@ -70,7 +70,7 @@ function Home() {
 
         <div className="row">
             <div className="col-12 text-center" style={styles.noPadding}>
-                <img src={stickMan} alt="Stick Figure" style={styles.imageProperty}></img>
+                {/* <img src={stickMan} alt="Stick Figure" style={styles.imageProperty}></img> */}
             </div>
         </div>
 
