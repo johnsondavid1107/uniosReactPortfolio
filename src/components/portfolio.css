@@ -18,7 +18,12 @@ border-radius: 90px;
     border-radius: 5px;
     
     
-    }
-    .pic:hover {
-        opacity: .2;
-    }
+}
+.pic:hover {
+   opacity: .2;
+}
+
+#bookPadding{
+    padding: 300px
+}
+
