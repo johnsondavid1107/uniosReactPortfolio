@@ -50,7 +50,7 @@ function Home() {
                 <Card>
                     <CardContent>
                         <Typography align={"center"}>
-                            Looking forward to colaborate!
+                            Looking forward to collaborate!
                                  </Typography>
                         <Typography align={"center"}>
                             <AiOutlineMail /> <a href="mailto:johnsondavid1107@gmail.com">johnsondavid1107@gmail.com</a>
