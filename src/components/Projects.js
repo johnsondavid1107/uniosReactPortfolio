@@ -95,7 +95,7 @@ function Projects() {
                 </div>
                 <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
                     <a href="https://desolate-castle-67258.herokuapp.com/" target="_blank"><img src={Google} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href="https://desolate-castle-67258.herokuapp.com/" target="_blank"> <h5 className="makeAppear" id="bookPadding" style={styles.middle} >GoogleBookApp:React</h5></a>
+                    <a href="https://desolate-castle-67258.herokuapp.com/" target="_blank"> <h5 className="makeAppear" id="bookPadding" style={styles.middle} >GoogleBookApp<br />:React</h5></a>
                 </div>
 
 

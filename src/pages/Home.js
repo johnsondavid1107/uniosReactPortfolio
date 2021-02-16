@@ -50,15 +50,15 @@ function Home() {
                 <Card>
                     <CardContent>
                         <Typography align={"center"}>
-                            Looking forward to collaborate!
-                                 </Typography>
-                        <Typography align={"center"}>
-                            <AiOutlineMail /> <a href="mailto:johnsondavid1107@gmail.com">johnsondavid1107@gmail.com</a>
+                            <AiOutlineMail /> <a href="mailto:johnsondavid1107@gmail.com">johnsondavid1107@gmail.com </a>
+                            <AiOutlineMail />
+
                         </Typography>
                         <hr></hr>
                         <Typography align={"center"}>
                             <CgFileDocument /> <a href="https://docs.google.com/document/d/1xZhhXB2kmWr3OvmVnIfEepLH1sXaXpLU05UmW18sRLk/edit?usp=sharing" target="_blank">
-                                Resume</a>
+                                Resume </a>
+                            <CgFileDocument />
                         </Typography>
 
                     </CardContent>

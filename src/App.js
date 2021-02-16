@@ -20,7 +20,7 @@ function App() {
         {/* <div style={styles.BB}>
         <Portfolio />
       </div> */}
-        <Route exact path="/" component={Home} />
+
         <Route exact path="/uniosReactPortfolio/portfolio" component={Portfolio} />
         <Route exact path="/uniosReactPortfolio" component={Home} />
 

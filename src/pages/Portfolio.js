@@ -32,6 +32,9 @@ function Portfolio() {
             display: "inline-block",
 
         },
+        topBorder: {
+            border: "none"
+        }
 
     }
     return (
@@ -42,6 +45,7 @@ function Portfolio() {
                         <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
                             <div className="container">
                                 <h1 className="display-3"><strong>My Portfolio </strong> </h1>
+
                                 <h4 className="display-4"><strong>Languages I speak...</strong> </h4>
 
                             </div>
