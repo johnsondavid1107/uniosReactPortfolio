@@ -15,7 +15,8 @@ class Footer extends React.Component {
                 background: "white"
             },
             footerPadding: {
-                padding: "10px"
+                padding: "10px",
+                marginTop: "50px"
             }
 
         }
