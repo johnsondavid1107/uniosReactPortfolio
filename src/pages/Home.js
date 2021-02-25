@@ -65,7 +65,7 @@ function Home() {
             margin: "20px"
         },
         topSpace: {
-            marginTop: "100px"
+            marginTop: "25px"
         },
         removePadding: {
             padding: 0
@@ -73,7 +73,6 @@ function Home() {
         white: {
             color: "white"
         }
-
     }
 
 
@@ -88,13 +87,34 @@ function Home() {
                             <div className="col-12" style={styles.removePadding}>
 
 
-                                <h1 className="display-4 text-center" data-aos="flip-right" ><strong style={styles.largeText}>Hello!  </strong></h1>
+                                <h1 className="display-5 text-center" data-aos="fade-right" ><strong style={styles.largeText}>Hello!  </strong></h1>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-12" style={styles.removePadding}>
-                                <h1 className="display-4 text-center" data-aos="flip-left">
+                                <h1 className="display-5 text-center" data-aos="fade-left">
                                     <strong style={styles.largeText}> And.. Welcome!</strong></h1>
+                            </div>
+
+                        </div>
+                        <div className="row">
+                            <div className="col-12" style={styles.removePadding}>
+                                <h1 className="display-4 text-center" data-aos="fade-right">
+                                    <strong> I am -</strong></h1>
+                            </div>
+
+                        </div>
+                        <div className="row">
+                            <div className="col-12" style={styles.removePadding}>
+                                <h2 className="display-4 text-center" data-aos="fade-right">
+                                    <strong style={styles.largeText}> David Anthony Johnson</strong></h2>
+                            </div>
+
+                        </div>
+                        <div className="row">
+                            <div className="col-12" style={styles.removePadding}>
+                                <h2 className="display-4 text-center" data-aos="flip-left">
+                                    <strong style={styles.largeText}> "The"</strong></h2>
                             </div>
 
                         </div>
@@ -102,10 +122,10 @@ function Home() {
                         <div className="row">
                             <div className="col-6 d-flex justify-content-end" style={styles.removePadding}>
                                 <h1 data-aos="fade-left"
-                                    data-aos-duration="1000">Full</h1>
+                                    data-aos-duration="1000">Full-</h1>
 
                             </div>
-                            <div className="col-6 d-flex justify-content-start">
+                            <div className="col-6 d-flex justify-content-start" style={styles.removePadding}>
                                 <h1 data-aos="fade-right"
                                     data-aos-duration="1500">Stack</h1>
 
@@ -114,10 +134,10 @@ function Home() {
                         <div className="row" style={styles.moreMargin}>
                             <div className="col-6 d-flex justify-content-end" style={styles.removePadding}>
                                 <h1 data-aos="fade-left"
-                                    data-aos-duration="2000">Web</h1>
+                                    data-aos-duration="2000">Web </h1>
 
                             </div>
-                            <div className="col-6 d-flex justify-content-start">
+                            <div className="col-6 d-flex justify-content-start" style={styles.removePadding}>
                                 <h1 data-aos="fade-right"
                                     data-aos-duration="2500">Developer</h1>
 
@@ -125,7 +145,7 @@ function Home() {
                         </div>
 
                         <div className="row">
-                            <div className="col-12 d-flex justify-content-center">
+                            <div className="col-12 d-flex justify-content-center" style={styles.removePadding}>
 
                                 <img src={Picture} alt="profile" style={styles.curvePicture}></img>
                             </div>
