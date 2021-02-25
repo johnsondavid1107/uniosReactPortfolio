@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/uniosReactPortfolio/static/css/main.5bda128f.chunk.css",
-    "main.js": "/uniosReactPortfolio/static/js/main.7c3af3d0.chunk.js",
-    "main.js.map": "/uniosReactPortfolio/static/js/main.7c3af3d0.chunk.js.map",
+    "main.js": "/uniosReactPortfolio/static/js/main.a091cc1a.chunk.js",
+    "main.js.map": "/uniosReactPortfolio/static/js/main.a091cc1a.chunk.js.map",
     "runtime-main.js": "/uniosReactPortfolio/static/js/runtime-main.1860047d.js",
     "runtime-main.js.map": "/uniosReactPortfolio/static/js/runtime-main.1860047d.js.map",
     "static/css/2.1c44f44c.chunk.css": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css",
-    "static/js/2.8b761200.chunk.js": "/uniosReactPortfolio/static/js/2.8b761200.chunk.js",
-    "static/js/2.8b761200.chunk.js.map": "/uniosReactPortfolio/static/js/2.8b761200.chunk.js.map",
+    "static/js/2.40232009.chunk.js": "/uniosReactPortfolio/static/js/2.40232009.chunk.js",
+    "static/js/2.40232009.chunk.js.map": "/uniosReactPortfolio/static/js/2.40232009.chunk.js.map",
     "static/js/3.1cff7f31.chunk.js": "/uniosReactPortfolio/static/js/3.1cff7f31.chunk.js",
     "static/js/3.1cff7f31.chunk.js.map": "/uniosReactPortfolio/static/js/3.1cff7f31.chunk.js.map",
     "index.html": "/uniosReactPortfolio/index.html",
     "static/css/2.1c44f44c.chunk.css.map": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css.map",
     "static/css/main.5bda128f.chunk.css.map": "/uniosReactPortfolio/static/css/main.5bda128f.chunk.css.map",
-    "static/js/2.8b761200.chunk.js.LICENSE.txt": "/uniosReactPortfolio/static/js/2.8b761200.chunk.js.LICENSE.txt",
+    "static/js/2.40232009.chunk.js.LICENSE.txt": "/uniosReactPortfolio/static/js/2.40232009.chunk.js.LICENSE.txt",
     "static/media/EmployeeDirectory.f7e7eb59.png": "/uniosReactPortfolio/static/media/EmployeeDirectory.f7e7eb59.png",
     "static/media/Google.8d0db4f5.png": "/uniosReactPortfolio/static/media/Google.8d0db4f5.png",
+    "static/media/Picture1.b31a97a9.jpg": "/uniosReactPortfolio/static/media/Picture1.b31a97a9.jpg",
     "static/media/bookBook.c4b2602a.png": "/uniosReactPortfolio/static/media/bookBook.c4b2602a.png",
     "static/media/dayPlanner.20622f39.png": "/uniosReactPortfolio/static/media/dayPlanner.20622f39.png",
     "static/media/eatDaBurger.e4bd8e8b.png": "/uniosReactPortfolio/static/media/eatDaBurger.e4bd8e8b.png",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.1860047d.js",
     "static/css/2.1c44f44c.chunk.css",
-    "static/js/2.8b761200.chunk.js",
+    "static/js/2.40232009.chunk.js",
     "static/css/main.5bda128f.chunk.css",
-    "static/js/main.7c3af3d0.chunk.js"
+    "static/js/main.a091cc1a.chunk.js"
   ]
 }
