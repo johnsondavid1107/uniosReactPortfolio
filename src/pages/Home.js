@@ -93,21 +93,28 @@ function Home() {
                         <div className="row">
                             <div className="col-12" style={styles.removePadding}>
                                 <h1 className="display-5 text-center" data-aos="fade-left">
-                                    <strong style={styles.largeText}> And.. Welcome!</strong></h1>
+                                    <strong > And.. Welcome!</strong></h1>
                             </div>
 
                         </div>
                         <div className="row">
                             <div className="col-12" style={styles.removePadding}>
                                 <h1 className="display-4 text-center" data-aos="fade-right">
-                                    <strong> I am -</strong></h1>
+                                    <strong> I am </strong></h1>
+                            </div>
+
+                        </div>
+                        <div className="row">
+                            <div className="col-12" style={styles.removePadding}>
+                                <h1 className="display-4 text-center" data-aos="fade-right">
+                                    <strong>-</strong></h1>
                             </div>
 
                         </div>
                         <div className="row">
                             <div className="col-12" style={styles.removePadding}>
                                 <h2 className="display-4 text-center" data-aos="fade-right">
-                                    <strong style={styles.largeText}> David Anthony Johnson</strong></h2>
+                                    <strong > David Anthony Johnson</strong></h2>
                             </div>
 
                         </div>
@@ -120,28 +127,33 @@ function Home() {
                         </div>
 
                         <div className="row">
-                            <div className="col-6 d-flex justify-content-end" style={styles.removePadding}>
+                            <div className="col-12 d-flex justify-content-center" style={styles.removePadding}>
                                 <h1 data-aos="fade-left"
-                                    data-aos-duration="1000">Full-</h1>
+                                    data-aos-duration="1000">Full&nbsp;-&nbsp;</h1>
+                                <h1 data-aos="fade-right"
+                                    data-aos-duration="1000">Stack</h1>
 
                             </div>
-                            <div className="col-6 d-flex justify-content-start" style={styles.removePadding}>
+                            {/* <div className="col-6 d-flex justify-content-start" style={styles.removePadding}>
                                 <h1 data-aos="fade-right"
                                     data-aos-duration="1500">Stack</h1>
 
-                            </div>
+                            </div> */}
                         </div>
                         <div className="row" style={styles.moreMargin}>
-                            <div className="col-6 d-flex justify-content-end" style={styles.removePadding}>
+                            <div className="col-12 d-flex justify-content-center" style={styles.removePadding}>
                                 <h1 data-aos="fade-left"
-                                    data-aos-duration="2000">Web </h1>
+                                    data-aos-duration="2000">Web&nbsp;</h1>
+
+                                <h1 data-aos="fade-right"
+                                    data-aos-duration="2000">Developer</h1>
 
                             </div>
-                            <div className="col-6 d-flex justify-content-start" style={styles.removePadding}>
+                            {/* <div className="col-6 d-flex justify-content-start" style={styles.removePadding}>
                                 <h1 data-aos="fade-right"
                                     data-aos-duration="2500">Developer</h1>
 
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="row">
@@ -166,15 +178,17 @@ function Home() {
 
         </div>
         <div className="row">
-            <div className="col-2"></div>
-            <div className="col-8">
+            <div className="col-1"></div>
+            <div className="col-10">
                 <Card style={styles.styleCard}>
                     <CardContent>
+
                         <Typography align={"center"}>
                             <AiOutlineMail style={styles.white} /> <a href="mailto:johnsondavid1107@gmail.com"><button type="button" className="btn btn-outline-light" > johnsondavid1107@gmail.com </button> </a>
                             <AiOutlineMail style={styles.white} />
 
                         </Typography>
+
                         <hr></hr>
                         <Typography align={"center"}>
                             <CgFileDocument style={styles.white} /> <a href="https://docs.google.com/document/d/1xZhhXB2kmWr3OvmVnIfEepLH1sXaXpLU05UmW18sRLk/edit?usp=sharing" target="_blank">
@@ -185,7 +199,7 @@ function Home() {
                     </CardContent>
                 </Card>
             </div>
-            <div className="col-2"></div>
+            <div className="col-1"></div>
 
         </div>
         <div className="row">

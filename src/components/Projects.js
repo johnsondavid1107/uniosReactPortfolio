@@ -1,15 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect } from "react"
 import "./portfolio.css"
-import Burger from "./photos/eatDaBurger.png"
-import EmployeeDirectory from "./photos/EmployeeDirectory.png"
-import fitnessTracker from "./photos/fitnessTracker.png"
-import noteTaker from "./photos/noteTaker.png"
-import whoseScreen from "./photos/whoseScreen.png"
-import weatherApp from "./photos/weatherApp.png"
-import bookBook from "./photos/bookBook.png"
-import dayPlanner from "./photos/dayPlanner.png"
-import Google from "./photos/Google.png"
+import Burger from "./photos/hamburger.png"
 import Aos from "aos";
 import "aos/dist/aos.css"
 
@@ -17,34 +9,96 @@ function Projects() {
     useEffect(() => {
         Aos.init({ duration: 3000, delay: 200 })
     }, []);
+
+
+    const arrayOfProjects = [
+        {
+            name: "Employee Directory",
+            description: "The Employee Directory is a React based application that will populate your employee record database.  It is currently set to 50 persons and each login will render different people.  The list can be searched by either name number or email address. ",
+            github: "https://github.com/johnsondavid1107/albusterEmployeeDirectory",
+            link: "https://johnsondavid1107.github.io/albusterEmployeeDirectory/",
+            imageLink: Burger
+        },
+        {
+            name: "Eat-Da-Burga",
+            description: "This applicaiton is a fun way to display baisc CRUD functionality.  Users can 'create' a burger which will be 'read' by the database on to the page.  Then, users can 'update' its state by devouring the burger.  Lastly the burger can be 'deleted' from database record.  The database is built with MYSQL",
+            github: "https://github.com/johnsondavid1107/treadEatDaBurgerApp",
+            link: "https://hidden-stream-16175.herokuapp.com/",
+            imageLink: Burger
+        },
+
+        {
+            name: "Day Planner",
+            description: "The Day Planner promotes daily productivity by offering a way to schedule your day.  Click on the time slots to schedule.  The in-app time clock will change colors through the day to note the current hour.  This applicaiton uses Local Storage so it can be used on any browser",
+            github: "",
+            link: "",
+            imageLink: ""
+        },
+
+        {
+            name: "Fitness Tracker",
+            description: "",
+            github: "",
+            link: "",
+            imageLink: ""
+        },
+
+        {
+            name: "Note Taker",
+            description: "",
+            github: "",
+            link: "",
+            imageLink: ""
+        },
+
+        {
+            name: "Whose Screen Is It Anyway?!",
+            description: "",
+            github: "",
+            link: "",
+            imageLink: ""
+        },
+
+        {
+            name: "Weather App",
+            description: "",
+            github: "",
+            link: "",
+            imageLink: ""
+        },
+
+        {
+            name: "bookBook",
+            description: "",
+            github: "",
+            link: "",
+            imageLink: ""
+        },
+
+        {
+            name: "Google Book Search",
+            description: "",
+            github: "",
+            link: "",
+            imageLink: ""
+        },
+
+
+    ]
+
+
+
+
     const styles = {
         imageTest: {
             padding: 0,
             marginBottom: 5,
             position: "relative"
 
-        }, picture: {
-            width: "100%",
-            border: "100px"
-        },
-        box: {
-            width: "150px",
-            background: "white"
-
         },
         raiseRow: {
             marginTop: "0px",
             backgroundColor: "white"
-        },
-        middle: {
-            position: "absolute",
-            top: "20%",
-            padding: "30px",
-            width: "100%",
-            color: "black",
-            display: "block",
-            opacity: 0,
-
         },
         quoteColor: {
             paddingTop: "30px",
@@ -53,53 +107,46 @@ function Projects() {
         },
         noPadding: {
             padding: 0
+        },
+        largeText: {
+            fontSize: "50px"
         }
     }
 
     return (
         <div className="container-fluid">
-            <div style={styles.box}></div>
+
             <div className="row text-center" style={styles.raiseRow}>
-                <div className="col-6 col-sm-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href="https://johnsondavid1107.github.io/albusterEmployeeDirectory/" target="_blank"><img src={EmployeeDirectory} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href="https://johnsondavid1107.github.io/albusterEmployeeDirectory/" target="_blank"> <h5 className="makeAppear" style={styles.middle}>Employee Directory: React Application</h5></a>
+                <div className="col-12">
 
-                </div>
-                <div className="col-6 col-sm-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href="https://hidden-stream-16175.herokuapp.com/" target="_blank"><img src={Burger} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href="https://hidden-stream-16175.herokuapp.com/" target="_blank"><h5 className="makeAppear" style={styles.middle} >Eat-Da-Burger: Heroku</h5></a>
-                </div>
-                <div className="col-6 col-sm-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href="https://johnsondavid1107.github.io/EsprayDayPlanner/" target="_blank"><img src={dayPlanner} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href="https://johnsondavid1107.github.io/EsprayDayPlanner/" target="_blank"><h5 className="makeAppear" style={styles.middle} >Day Planner: Local Storage</h5></a>
-                </div>
-                <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href=" https://swinstream-fitness-tracker.herokuapp.com/" target="_blank"><img src={fitnessTracker} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href=" https://swinstream-fitness-tracker.herokuapp.com/" target="_blank"><h5 className="makeAppear" style={styles.middle} >Fitness Tracker: MongoDB</h5></a>
-                </div>
-                <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href="https://boiling-woodland-15894.herokuapp.com/" target="_blank"> <img src={noteTaker} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href="https://boiling-woodland-15894.herokuapp.com/" target="_blank"> <h5 className="makeAppear" style={styles.middle} >Note Taker: CRUD</h5> </a>
-                </div>
-                <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href="https://johnsondavid1107.github.io/WhoseScreenIsItAnyway/" target="_blank"><img src={whoseScreen} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href="https://johnsondavid1107.github.io/WhoseScreenIsItAnyway/" target="_blank"> <h5 className="makeAppear" style={styles.middle} >Whose Screen Is It Anyway..:Local Storage</h5></a>
-                </div>
-                <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href="https://johnsondavid1107.github.io/taperWeatherApp/" target="_blank"><img src={weatherApp} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href="https://johnsondavid1107.github.io/taperWeatherApp/" target="_blank"><h5 className="makeAppear" style={styles.middle} >Weather App: API</h5></a>
-                </div>
-                <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href="https://pacific-harbor-27397.herokuapp.com/login" target="_blank"><img src={bookBook} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href="https://pacific-harbor-27397.herokuapp.com/login" target="_blank"> <h5 className="makeAppear" id="bookPadding" style={styles.middle} >bookBook:MYSQL</h5></a>
-                </div>
-                <div className="col-6 col-md-4 col-xl-3" style={styles.imageTest}>
-                    <a href="https://desolate-castle-67258.herokuapp.com/" target="_blank"><img src={Google} alt="test" className="pic" data-aos="flip-left" style={styles.picture}></img></a>
-                    <a href="https://desolate-castle-67258.herokuapp.com/" target="_blank"> <h5 className="makeAppear" id="bookPadding" style={styles.middle} >GoogleBookApp<br />:React</h5></a>
-                </div>
+                    {arrayOfProjects.map(one =>
+                        <div className="row d-flex justify-content-center">
+
+                            <div className="col-10 d-flex justify-content-center" style={{
+                                height: "400px",
+                                border: "15px dashed black",
+                                marginBottom: "50px",
+                                paddingTop: "20px",
+                                backgroundImage: `url(${one.imageLink})`,
+                                backgroundSize: "100px 100px",
+                                backgroundRepeat: "no-repeat",
+                                backgroundPosition: "left top 250px"
+
+
+                            }}>
+
+                                <div style={styles.largeText}>{one.name}</div>
+                                <div>{one.description}</div>
+
+                            </div>
+
+
+                        </div>
+                    )}
 
 
 
+                </div>
 
             </div>
             <div className="row">
