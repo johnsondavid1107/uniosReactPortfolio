@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/uniosReactPortfolio/static/css/main.5bda128f.chunk.css",
-    "main.js": "/uniosReactPortfolio/static/js/main.7dcbf759.chunk.js",
-    "main.js.map": "/uniosReactPortfolio/static/js/main.7dcbf759.chunk.js.map",
+    "main.css": "/uniosReactPortfolio/static/css/main.054a93da.chunk.css",
+    "main.js": "/uniosReactPortfolio/static/js/main.3dfe4d79.chunk.js",
+    "main.js.map": "/uniosReactPortfolio/static/js/main.3dfe4d79.chunk.js.map",
     "runtime-main.js": "/uniosReactPortfolio/static/js/runtime-main.1860047d.js",
     "runtime-main.js.map": "/uniosReactPortfolio/static/js/runtime-main.1860047d.js.map",
     "static/css/2.1c44f44c.chunk.css": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css",
@@ -12,30 +12,30 @@
     "static/js/3.1cff7f31.chunk.js.map": "/uniosReactPortfolio/static/js/3.1cff7f31.chunk.js.map",
     "index.html": "/uniosReactPortfolio/index.html",
     "static/css/2.1c44f44c.chunk.css.map": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css.map",
-    "static/css/main.5bda128f.chunk.css.map": "/uniosReactPortfolio/static/css/main.5bda128f.chunk.css.map",
+    "static/css/main.054a93da.chunk.css.map": "/uniosReactPortfolio/static/css/main.054a93da.chunk.css.map",
     "static/js/2.40232009.chunk.js.LICENSE.txt": "/uniosReactPortfolio/static/js/2.40232009.chunk.js.LICENSE.txt",
-    "static/media/EmployeeDirectory.f7e7eb59.png": "/uniosReactPortfolio/static/media/EmployeeDirectory.f7e7eb59.png",
-    "static/media/Google.8d0db4f5.png": "/uniosReactPortfolio/static/media/Google.8d0db4f5.png",
     "static/media/Picture1.b31a97a9.jpg": "/uniosReactPortfolio/static/media/Picture1.b31a97a9.jpg",
-    "static/media/bookBook.c4b2602a.png": "/uniosReactPortfolio/static/media/bookBook.c4b2602a.png",
-    "static/media/dayPlanner.20622f39.png": "/uniosReactPortfolio/static/media/dayPlanner.20622f39.png",
-    "static/media/eatDaBurger.e4bd8e8b.png": "/uniosReactPortfolio/static/media/eatDaBurger.e4bd8e8b.png",
-    "static/media/fitnessTracker.0c35f60d.png": "/uniosReactPortfolio/static/media/fitnessTracker.0c35f60d.png",
+    "static/media/book.ccb3eedc.svg": "/uniosReactPortfolio/static/media/book.ccb3eedc.svg",
+    "static/media/directory.ab9def04.svg": "/uniosReactPortfolio/static/media/directory.ab9def04.svg",
+    "static/media/fitness.0f492cd1.svg": "/uniosReactPortfolio/static/media/fitness.0f492cd1.svg",
+    "static/media/google.2d3dbbcb.svg": "/uniosReactPortfolio/static/media/google.2d3dbbcb.svg",
+    "static/media/hamburger.befee900.png": "/uniosReactPortfolio/static/media/hamburger.befee900.png",
     "static/media/html.2b01d918.svg": "/uniosReactPortfolio/static/media/html.2b01d918.svg",
     "static/media/js.25db9ebb.png": "/uniosReactPortfolio/static/media/js.25db9ebb.png",
-    "static/media/noteTaker.2e52e9a0.png": "/uniosReactPortfolio/static/media/noteTaker.2e52e9a0.png",
+    "static/media/note.d9867a07.svg": "/uniosReactPortfolio/static/media/note.d9867a07.svg",
     "static/media/nyc.a5e79e7d.jpg": "/uniosReactPortfolio/static/media/nyc.a5e79e7d.jpg",
     "static/media/picNode.017168ec.png": "/uniosReactPortfolio/static/media/picNode.017168ec.png",
+    "static/media/planner.2b89b769.svg": "/uniosReactPortfolio/static/media/planner.2b89b769.svg",
+    "static/media/question.91a7df43.svg": "/uniosReactPortfolio/static/media/question.91a7df43.svg",
     "static/media/reactBW.028a987c.png": "/uniosReactPortfolio/static/media/reactBW.028a987c.png",
     "static/media/stickGuy.6b8b339e.svg": "/uniosReactPortfolio/static/media/stickGuy.6b8b339e.svg",
-    "static/media/weatherApp.d561c041.png": "/uniosReactPortfolio/static/media/weatherApp.d561c041.png",
-    "static/media/whoseScreen.eada8575.png": "/uniosReactPortfolio/static/media/whoseScreen.eada8575.png"
+    "static/media/weather.f8a978e1.svg": "/uniosReactPortfolio/static/media/weather.f8a978e1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1860047d.js",
     "static/css/2.1c44f44c.chunk.css",
     "static/js/2.40232009.chunk.js",
-    "static/css/main.5bda128f.chunk.css",
-    "static/js/main.7dcbf759.chunk.js"
+    "static/css/main.054a93da.chunk.css",
+    "static/js/main.3dfe4d79.chunk.js"
   ]
 }
