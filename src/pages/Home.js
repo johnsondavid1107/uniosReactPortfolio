@@ -40,7 +40,7 @@ function Home() {
             backgroundAttachment: "fixed",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            backgroundPosition: "center top 16px",
+            backgroundPosition: "center top 150px",
             backgroundImage: `url(${stickMan})`,
             height: "500px",
 
