@@ -78,9 +78,28 @@ function Portfolio() {
                     <div className="col-sm-12">
                         <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
                             <div className="container">
-                                <h1 className="display-4"><strong>Technologies I also use</strong></h1>
+                                <h1 className="display-4"><strong>All that I also use</strong></h1>
                                 <ul>
-                                    <li style={styles.techList}> <strong>Express.JS | MongoDB | Mongoose | MySQL | Bootstrap 4 | Heroku | Git | npm | Sequelize | ORM | API | Local Storage | CRUD</strong> </li>
+                                    <li style={styles.techList}>
+                                        <strong className="html5"> HTML 5 </strong> <strong>| </strong>
+                                        <strong className="react">  React </strong>
+                                        <strong> | Node.js | </strong>
+                                        <strong>   My </strong>
+                                        <strong className="sql">  SQL  </strong>
+                                        <strong> | CSS 3 |</strong>
+                                        <strong className="javascript">  Javascript </strong>
+                                        <strong> | Express.JS | </strong>
+                                        <strong className="mongo"> MongoDB </strong>
+                                        <strong>  | Mongoose |
+                                        Bootstrap 4 |
+                                        Heroku |
+                                        Git |
+                                        npm |
+                                        Sequelize
+                                        | ORM
+                                        | API
+                                        | Local Storage
+                                          | CRUD</strong> </li>
 
 
                                 </ul>

@@ -27,3 +27,33 @@ border-radius: 90px;
     padding: 300px
 }
 
+
+.something {
+        font-size: 50px;
+    }
+
+.headerPadding {
+    padding-bottom: 15px;
+}
+
+.addMargin {
+    margin: 10px
+}
+.html5{
+    color: #e34c26;
+}
+.react{
+    color: #61DBFB;
+}
+
+.sql{
+    color: #F29111;
+}
+
+.mongo{
+    color: #4DB33D;
+}
+
+.javascript {
+    color: #F0DB4F
+}
