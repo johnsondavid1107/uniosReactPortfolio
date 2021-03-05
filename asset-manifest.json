@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uniosReactPortfolio/static/css/main.054a93da.chunk.css",
-    "main.js": "/uniosReactPortfolio/static/js/main.b3294058.chunk.js",
-    "main.js.map": "/uniosReactPortfolio/static/js/main.b3294058.chunk.js.map",
+    "main.js": "/uniosReactPortfolio/static/js/main.b4dfe9c3.chunk.js",
+    "main.js.map": "/uniosReactPortfolio/static/js/main.b4dfe9c3.chunk.js.map",
     "runtime-main.js": "/uniosReactPortfolio/static/js/runtime-main.1860047d.js",
     "runtime-main.js.map": "/uniosReactPortfolio/static/js/runtime-main.1860047d.js.map",
     "static/css/2.1c44f44c.chunk.css": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/book.ccb3eedc.svg": "/uniosReactPortfolio/static/media/book.ccb3eedc.svg",
     "static/media/directory.ab9def04.svg": "/uniosReactPortfolio/static/media/directory.ab9def04.svg",
     "static/media/fitness.0f492cd1.svg": "/uniosReactPortfolio/static/media/fitness.0f492cd1.svg",
+    "static/media/food.e7814544.svg": "/uniosReactPortfolio/static/media/food.e7814544.svg",
     "static/media/google.2d3dbbcb.svg": "/uniosReactPortfolio/static/media/google.2d3dbbcb.svg",
     "static/media/hamburger.befee900.png": "/uniosReactPortfolio/static/media/hamburger.befee900.png",
     "static/media/html.2b01d918.svg": "/uniosReactPortfolio/static/media/html.2b01d918.svg",
@@ -36,6 +37,6 @@
     "static/css/2.1c44f44c.chunk.css",
     "static/js/2.40232009.chunk.js",
     "static/css/main.054a93da.chunk.css",
-    "static/js/main.b3294058.chunk.js"
+    "static/js/main.b4dfe9c3.chunk.js"
   ]
 }
