@@ -10,13 +10,14 @@ import Fitness from "./photos/fitness.svg"
 import Planner from "./photos/planner.svg"
 import Directory from "./photos/directory.svg"
 import Book from "./photos/book.svg"
+import Food from "./photos/food.svg"
 
 import Aos from "aos";
 import "aos/dist/aos.css"
 
 function Projects() {
     useEffect(() => {
-        Aos.init({ duration: 3000, delay: 200 })
+        Aos.init({ duration: 1000, delay: 100 })
     }, []);
 
 
@@ -27,7 +28,7 @@ function Projects() {
             description: "Built with React, NoSQL and uses the Spoonacular Receipe API.  Log all of your fridge and pantry items to your digital pantry.  Log in per user to see visual cues of your foods current shelf life based on the expiration date you enter.  Find unique receipes to cook your food.  Because, There is Food At Home.",
             github: "https://github.com/johnsondavid1107/theresFoodAtHome",
             link: "https://theres-food-at-home.herokuapp.com/",
-            imageLink: Directory,
+            imageLink: Food,
             color: "#61DBFB",
             flip: "fade-left"
         },
@@ -172,6 +173,7 @@ function Projects() {
                                     border: `15px dashed ${one.color}`,
                                     marginBottom: "50px",
                                     paddingTop: "20px",
+                                    borderRadius: "30px"
                                     // backgroundImage: `url(${one.imageLink})`,
                                     // backgroundSize: "50px 50px",
                                     // backgroundRepeat: "no-repeat",
