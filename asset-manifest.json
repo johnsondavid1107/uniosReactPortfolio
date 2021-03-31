@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/uniosReactPortfolio/static/css/main.715eab5d.chunk.css",
-    "main.js": "/uniosReactPortfolio/static/js/main.d17f0efa.chunk.js",
-    "main.js.map": "/uniosReactPortfolio/static/js/main.d17f0efa.chunk.js.map",
+    "main.css": "/uniosReactPortfolio/static/css/main.2ed513ba.chunk.css",
+    "main.js": "/uniosReactPortfolio/static/js/main.a178fd14.chunk.js",
+    "main.js.map": "/uniosReactPortfolio/static/js/main.a178fd14.chunk.js.map",
     "runtime-main.js": "/uniosReactPortfolio/static/js/runtime-main.29f7d5fd.js",
     "runtime-main.js.map": "/uniosReactPortfolio/static/js/runtime-main.29f7d5fd.js.map",
     "static/css/2.1c44f44c.chunk.css": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css",
-    "static/js/2.7de88457.chunk.js": "/uniosReactPortfolio/static/js/2.7de88457.chunk.js",
-    "static/js/2.7de88457.chunk.js.map": "/uniosReactPortfolio/static/js/2.7de88457.chunk.js.map",
+    "static/js/2.8bef0da3.chunk.js": "/uniosReactPortfolio/static/js/2.8bef0da3.chunk.js",
+    "static/js/2.8bef0da3.chunk.js.map": "/uniosReactPortfolio/static/js/2.8bef0da3.chunk.js.map",
     "static/js/3.8ff79bfd.chunk.js": "/uniosReactPortfolio/static/js/3.8ff79bfd.chunk.js",
     "static/js/3.8ff79bfd.chunk.js.map": "/uniosReactPortfolio/static/js/3.8ff79bfd.chunk.js.map",
     "index.html": "/uniosReactPortfolio/index.html",
     "static/css/2.1c44f44c.chunk.css.map": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css.map",
-    "static/css/main.715eab5d.chunk.css.map": "/uniosReactPortfolio/static/css/main.715eab5d.chunk.css.map",
-    "static/js/2.7de88457.chunk.js.LICENSE.txt": "/uniosReactPortfolio/static/js/2.7de88457.chunk.js.LICENSE.txt",
+    "static/css/main.2ed513ba.chunk.css.map": "/uniosReactPortfolio/static/css/main.2ed513ba.chunk.css.map",
+    "static/js/2.8bef0da3.chunk.js.LICENSE.txt": "/uniosReactPortfolio/static/js/2.8bef0da3.chunk.js.LICENSE.txt",
     "static/media/Picture1.b31a97a9.jpg": "/uniosReactPortfolio/static/media/Picture1.b31a97a9.jpg",
     "static/media/book.ccb3eedc.svg": "/uniosReactPortfolio/static/media/book.ccb3eedc.svg",
     "static/media/directory.ab9def04.svg": "/uniosReactPortfolio/static/media/directory.ab9def04.svg",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.29f7d5fd.js",
     "static/css/2.1c44f44c.chunk.css",
-    "static/js/2.7de88457.chunk.js",
-    "static/css/main.715eab5d.chunk.css",
-    "static/js/main.d17f0efa.chunk.js"
+    "static/js/2.8bef0da3.chunk.js",
+    "static/css/main.2ed513ba.chunk.css",
+    "static/js/main.a178fd14.chunk.js"
   ]
 }
