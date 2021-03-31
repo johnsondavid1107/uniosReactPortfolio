@@ -10,6 +10,7 @@ import { CardContent } from "@material-ui/core"
 import Picture from "../components/photos/Picture1.jpg"
 import Aos from "aos";
 import "aos/dist/aos.css"
+import "./Home.css"
 
 
 
@@ -79,7 +80,7 @@ function Home() {
     return (<div className="container-fluid">
 
 
-        <div className="row">
+        <div className="row fontStyle">
             <div className="col-12" style={styles.removePadding}>
                 <div className="jumbotron jumbotron-fluid" style={styles.jumbotron}>
                     <div className="container" style={styles.topSpace}>
