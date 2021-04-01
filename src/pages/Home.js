@@ -10,7 +10,7 @@ import { CardContent } from "@material-ui/core"
 import Picture from "../components/photos/Picture1.jpg"
 import Aos from "aos";
 import "aos/dist/aos.css"
-import "./Home.css"
+import "./style.css"
 
 
 
@@ -52,7 +52,7 @@ function Home() {
             padding: 0
         },
         moreMargin: {
-            marginBottom: "110px",
+            marginBottom: "75px",
         },
         styleCard: {
             border: "10px solid white",

@@ -7,6 +7,7 @@ import reactBW from "../components/photos/reactBW.png"
 import MYSQL from '../components/photos/MYSQL.png'
 import NYC from "../components/NYC"
 import Projects from "../components/Projects"
+import "./style.css"
 
 
 
@@ -30,6 +31,7 @@ function Portfolio() {
         },
         techList: {
             display: "inline-block",
+            fontSize: "30px"
 
         },
         topBorder: {
@@ -38,7 +40,7 @@ function Portfolio() {
 
     }
     return (
-        <div>
+        <div className="fontStyle">
             <div className="container-fluid" style={styles.topContainer}>
                 <div className="row">
                     <div className="col-sm-12">

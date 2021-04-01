@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.fontStyle {
+    font-family: 'Abel', sans-serif;
+}
+
+ul a {
+    
+    color: white !important;
+  
+    
+}
+
+.active{
+    color: black !important
+}
+
+.navFontStyle {
+    font-family: 'Abel', sans-serif;
+    font-size: larger;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}

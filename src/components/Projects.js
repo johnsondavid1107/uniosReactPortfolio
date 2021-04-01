@@ -17,7 +17,7 @@ import "aos/dist/aos.css"
 
 function Projects() {
     useEffect(() => {
-        Aos.init({ duration: 1000, delay: 100 })
+        Aos.init({ duration: 1000, delay: 500 })
     }, []);
 
 
@@ -198,7 +198,7 @@ function Projects() {
                                 <div className="row">
                                     <div className="col-12">
                                         <a href={one.github} target="_blank"><button type="button" className="btn btn-outline-dark">GitHub</button></a>
-                                        <img src={one.imageLink} style={styles.imageSize}></img>
+                                        <img src={one.imageLink} style={styles.imageSize} alt="Github link"></img>
                                         <a href={one.link} target="_blank"><button type="button" className="btn btn-outline-dark">To App</button></a>
                                     </div>
                                 </div>
