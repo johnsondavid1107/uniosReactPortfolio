@@ -8,213 +8,161 @@ import Card from "@material-ui/core/Card"
 import Typography from '@material-ui/core/Typography'
 import { CardContent } from "@material-ui/core"
 import Picture from "../components/photos/Picture1.jpg"
+import Black from "../components/photos/black.mp4"
+import { Link, useLocation } from "react-router-dom"
 import Aos from "aos";
 import "aos/dist/aos.css"
 import "./style.css"
+import "./video.scss"
 
 
 
 function Home() {
 
+    const location = useLocation()
+
     useEffect(() => {
         Aos.init({ duration: 2000 })
     }, []);
 
+    // const styles = {
+
+    //     parallax: {
+    //         width: "100%",
+    //         backgroundAttachment: "fixed",
+    //         backgroundRepeat: "no-repeat",
+    //         backgroundSize: "cover",
+    //         backgroundPosition: "center top 30px",
+    //         backgroundImage: `url(${stickMan})`,
+    //         height: "500px",
+
+
+    //     },
+
+    // }
     const styles = {
-        imageProperty: {
-            width: "100%"
+        navColor: {
+            color: "gray"
         },
-        imgColor: {
-            backgroundColor: "black"
-        },
-        jumbotron: {
-            background: "black",
-            color: "white",
-            margin: 0
+        back: {
+            backgroundColor: "black",
+            color: "white"
         },
         noPadding: {
             padding: 0,
-            backgroundColor: "white"
-        },
-        parallax: {
-            width: "100%",
-            backgroundAttachment: "fixed",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "center top 30px",
-            backgroundImage: `url(${stickMan})`,
-            height: "500px",
-
 
         },
-        largeText: {
-            fontSize: "100px",
-            padding: 0
-        },
-        moreMargin: {
-            marginBottom: "75px",
-        },
-        styleCard: {
-            border: "10px solid white",
-            borderColor: "white",
-            backgroundColor: "black",
-            marginBottom: "50px"
-        },
-        curvePicture: {
-            borderRadius: "200px",
-            border: "5px solid white",
-            margin: "20px"
-        },
-        topSpace: {
-            marginTop: "25px"
-        },
-        removePadding: {
-            padding: 0
-        },
-        white: {
-            color: "white"
-        }
+
     }
 
 
-    return (<div className="container-fluid">
 
+    return (
 
-        <div className="row fontStyle">
-            <div className="col-12" style={styles.removePadding}>
-                <div className="jumbotron jumbotron-fluid" style={styles.jumbotron}>
-                    <div className="container" style={styles.topSpace}>
-                        <div className="row">
-                            <div className="col-12" style={styles.removePadding}>
-
-
-                                <h1 className="display-5 text-center" data-aos="fade-right" ><strong style={styles.largeText}>Hello!  </strong></h1>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-12" style={styles.removePadding}>
-                                <h1 className="display-5 text-center" data-aos="fade-left">
-                                    <strong > And.. Welcome!</strong></h1>
-                            </div>
-
-                        </div>
-                        <div className="row">
-                            <div className="col-12" style={styles.removePadding}>
-                                <h1 className="display-4 text-center" data-aos="fade-right">
-                                    <strong> I am </strong></h1>
-                            </div>
-
-                        </div>
-                        <div className="row">
-                            <div className="col-12" style={styles.removePadding}>
-                                <h1 className="display-4 text-center" data-aos="fade-right">
-                                    <strong>-</strong></h1>
-                            </div>
-
-                        </div>
-                        <div className="row">
-                            <div className="col-12" style={styles.removePadding}>
-                                <h2 className="display-4 text-center" data-aos="fade-right">
-                                    <strong > David Anthony Johnson</strong></h2>
-                            </div>
-
-                        </div>
-                        <div className="row">
-                            <div className="col-12" style={styles.removePadding}>
-                                <h2 className="display-4 text-center" data-aos="flip-left">
-                                    <strong style={styles.largeText}> "The"</strong></h2>
-                            </div>
-
-                        </div>
-
-                        <div className="row">
-                            <div className="col-12 d-flex justify-content-center" style={styles.removePadding}>
-                                <h1 data-aos="fade-left"
-                                    data-aos-duration="1000">Full&nbsp;-&nbsp;</h1>
-                                <h1 data-aos="fade-right"
-                                    data-aos-duration="1000">Stack</h1>
-
-                            </div>
-                            {/* <div className="col-6 d-flex justify-content-start" style={styles.removePadding}>
-                                <h1 data-aos="fade-right"
-                                    data-aos-duration="1500">Stack</h1>
-
-                            </div> */}
-                        </div>
-                        <div className="row" style={styles.moreMargin}>
-                            <div className="col-12 d-flex justify-content-center" style={styles.removePadding}>
-                                <h1 data-aos="fade-left"
-                                    data-aos-duration="2000">Web&nbsp;</h1>
-
-                                <h1 data-aos="fade-right"
-                                    data-aos-duration="2000">Developer</h1>
-
-                            </div>
-                            {/* <div className="col-6 d-flex justify-content-start" style={styles.removePadding}>
-                                <h1 data-aos="fade-right"
-                                    data-aos-duration="2500">Developer</h1>
-
-                            </div> */}
-                        </div>
-
-                        <div className="row">
-                            <div className="col-12 d-flex justify-content-center" style={styles.removePadding}>
-
-                                <img src={Picture} alt="profile" style={styles.curvePicture}></img>
-                            </div>
-                        </div>
-
-
-
-
-
-
-
-
-                        <p className="lead text-center">Thank you for stopping by!  I am a Full-Stack Web Developer from New York City.  I am a team player and professional debugger with a passion to create a fluid user experience.  It's as simple as black and white!</p>
-
-                    </div>
+        <div >
+            <div className="row">
+                <div className="col-12">
+                    <nav className="navbar fixed-top navbar-expand-sm navbar-dark area fontStyle">
+                        <ul className="nav nav-tabs ml-auto" style={styles.back}>
+                            <li className="nav-item">
+                                <Link to="/uniosReactPortfolio/portfolio" className={location.pathname === "/uniosReactPortfolio/portfolio" ? "nav-link active" : "nav-link"} >
+                                    Portfolio
+                       </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/uniosReactPortfolio" className={location.pathname === "/" ? "nav-link active" : "nav-link"} >
+                                    Home
+                       </Link>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
 
+            <video
+                autostart="true" autoPlay playsInline muted loop src={Black} id="myVideo">
+            </video>
+
+            <header className="viewportHeader">
+                <h1 className="title">
+                    Hello...I am the
+                    <div className="col-12 text-center">
+                        <span>
+                            Full Stack Web Developer
+                    </span>
+                    </div>
+
+                </h1>
+
+            </header>
+
+
+
+            <main >
+                <div className="row">
+                    <div className="col-12 d-flex justify-content-center">
+                        <h1 className="about">About Me</h1>
+                    </div>
+                </div>
+
+                <div className="row d-flex align-content-center">
+                    <div className="picture">
+                        <img src={Picture} alt="profile" className="profilePic"></img>
+                    </div>
+                </div>
+
+
+
+                <p>
+                    I am a Full-Stack Web Developer from New York City.  I enjoy coding very much!  I have learned the foundation of building websites and graduted from Rutgers Web Development Boot Camp focusing on todays demand of programming languages.  I am also currently learning Python 3 and working on a few projects.  I spend my time honing my skills solving HackerRank algorithims and data structure problems.
+                        </p>
+                <hr></hr>
+                <p>
+                    I am a family man with 2 beautiful kids, enjoy fitness and can't say no to a competititive video game! Please visit my <a href="/Portfolio">Portfolio </a> for examples of my work, click on my resume to list my experience and click on my email to connect!
+                        </p>
+
+
+
+
+                <div className="row">
+                    <div className="col-1"></div>
+                    <div className="col-10">
+                        <Card >
+                            <CardContent>
+
+                                <Typography align={"center"}>
+                                    <AiOutlineMail style={styles.white} /> <a href="mailto:johnsondavid1107@gmail.com"><button type="button" className="btn btn-outline-dark" > johnsondavid1107@gmail.com </button> </a>
+                                    <AiOutlineMail style={styles.white} />
+
+                                </Typography>
+
+                                <hr></hr>
+                                <Typography align={"center"}>
+                                    <CgFileDocument style={styles.white} /> <a href="https://docs.google.com/document/d/1xZhhXB2kmWr3OvmVnIfEepLH1sXaXpLU05UmW18sRLk/edit?usp=sharing" target="_blank">
+                                        <button type="button" className="btn btn-outline-dark" > Resume </button> </a>
+                                    <CgFileDocument style={styles.white} />
+                                </Typography>
+
+                            </CardContent>
+                        </Card>
+                    </div>
+                    <div className="col-1"></div>
+
+                </div>
+
+
+
+            </main>
+
+
+
+
+
+
+
+
+
         </div>
-        <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10">
-                <Card style={styles.styleCard}>
-                    <CardContent>
-
-                        <Typography align={"center"}>
-                            <AiOutlineMail style={styles.white} /> <a href="mailto:johnsondavid1107@gmail.com"><button type="button" className="btn btn-outline-light" > johnsondavid1107@gmail.com </button> </a>
-                            <AiOutlineMail style={styles.white} />
-
-                        </Typography>
-
-                        <hr></hr>
-                        <Typography align={"center"}>
-                            <CgFileDocument style={styles.white} /> <a href="https://docs.google.com/document/d/1xZhhXB2kmWr3OvmVnIfEepLH1sXaXpLU05UmW18sRLk/edit?usp=sharing" target="_blank">
-                                <button type="button" className="btn btn-outline-light" > Resume </button> </a>
-                            <CgFileDocument style={styles.white} />
-                        </Typography>
-
-                    </CardContent>
-                </Card>
-            </div>
-            <div className="col-1"></div>
-
-        </div>
-        <div className="row">
-            <div className="col-12 text-center" style={styles.noPadding}>
-                <div style={styles.parallax}></div>
-            </div>
-        </div>
-
-
-
-
-
-
-    </div >
     )
 
 }

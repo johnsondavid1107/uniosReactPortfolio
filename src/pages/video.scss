@@ -1,0 +1,101 @@
+
+video {
+  
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+   object-fit: cover;
+
+    
+}
+
+html, body {
+    height: 100%;
+   
+
+}
+
+html {
+    font-family: 'Abel', sans-serif;
+    font-size: 150%;
+    background-color: black;
+}
+
+.viewportHeader{
+    
+    top: 30vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+}
+.title{
+    font-family: "Abel", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3vw;
+    line-height: 1.2;
+    font-size: 3vw;
+    text-align: center;
+ 
+
+    span {
+        display: block;
+        font-size: 10vw;
+        letter-spacing: -1.0vw;
+       
+
+    }
+}
+
+.about {
+    font-family: "Abel", "sans-serif";
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+
+}
+
+main {
+    background:rgba($color: white, $alpha: 1);
+    color: black;
+    position: absolute;
+    top: 100vh;
+
+    justify-content: center;
+   
+
+    padding: 1rem;
+    p{
+        max-width: 100%;
+        margin: 1rem auto;
+        font-family: "Abel", "sans-serif";
+      
+    }
+}
+.profilePic{
+    
+ 
+    border-radius: 200px;
+    width: 100%;
+  
+   
+    
+  
+}
+
+.picture{
+    display: block;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+// .something{
+//     position: absolute;
+//     height: 100%;
+//     top: 500px;
+// }
+
+
