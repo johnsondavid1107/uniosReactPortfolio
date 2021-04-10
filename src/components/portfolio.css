@@ -7,6 +7,12 @@
     
     
 }
+.gitHub {
+    margin: 10px
+}
+.linkedIn {
+    margin: 10px
+}
 
 .gitHub:hover {
 background-color: black;

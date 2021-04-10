@@ -10,28 +10,26 @@ class Footer extends React.Component {
 
 
     render() {
-        const styles = {
-            footerBackground: {
-                background: "white"
-            },
-            footerPadding: {
-                padding: "10px",
-                marginTop: "50px"
-            }
 
-        }
         return (
-            <IconContext.Provider value={{ size: "6em" }}>
-                < div className="row" >
-                    <div className="col-12 text-center" style={styles.footerBackground}>
+            <IconContext.Provider value={{ size: "3em" }}>
+                < div className="row lowFoot" >
+                    <div className="col-12 text-center" >
 
-                        <a href="https://github.com/johnsondavid1107" target={"_blank"}><SiGithub className="gitHub" style={styles.footerPadding} /></a>
+                        <a href="https://github.com/johnsondavid1107" target={"_blank"}><SiGithub className="gitHub" /></a>
 
                         <a href="https://linkedin.com/in/johnsondavid1107
-" target={"_blank"}><GrLinkedin className="linkedIn" style={styles.footerPadding} /></a>
+" target={"_blank"}><GrLinkedin className="linkedIn" /></a>
 
                     </div>
                 </div >
+                <div className="row">
+                    <div className="col-12 text-center centerWhite">
+                        <small>© Copyright 2021 | Site by David Johnson</small>
+                    </div>
+
+                </div>
+
             </IconContext.Provider>
         )
     }

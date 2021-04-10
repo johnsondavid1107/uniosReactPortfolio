@@ -44,3 +44,16 @@ ul a {
   
    top: 0;
 }
+
+.back {
+    background: black;
+}
+
+.lowFoot {
+    padding: 1rem;
+}
+
+.portfolioFooter:hover {
+    background: white;
+
+}

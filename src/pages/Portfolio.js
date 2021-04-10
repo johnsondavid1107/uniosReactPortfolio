@@ -7,7 +7,9 @@ import reactBW from "../components/photos/reactBW.png"
 import MYSQL from '../components/photos/MYSQL.png'
 import NYC from "../components/NYC"
 import Projects from "../components/Projects"
+import { Link, useLocation } from "react-router-dom"
 import "./style.css"
+import Footer from "../components/Footer"
 
 
 
@@ -15,6 +17,7 @@ import "./style.css"
 
 
 function Portfolio() {
+    const location = useLocation()
 
     const styles = {
         jumbotron: {
@@ -43,18 +46,36 @@ function Portfolio() {
         <div className="fontStyle">
             <div className="container-fluid" style={styles.topContainer}>
                 <div className="row">
+                    <div className="col-12">
+                        <nav className="navbar fixed-top navbar-expand-sm navbar-dark area fontStyle">
+                            <ul className="nav nav-tabs ml-auto" style={styles.back}>
+                                <li className="nav-item">
+                                    <Link to="/uniosReactPortfolio/portfolio" className={location.pathname === "/uniosReactPortfolio/portfolio" ? "nav-link active" : "nav-link"} >
+                                        Portfolio
+                       </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/uniosReactPortfolio" className={location.pathname === "/uniosReactPortfolio" ? "nav-link active" : "nav-link"} >
+                                        Home
+                       </Link>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+                <div className="row back about">
                     <div className="col-sm-12">
                         <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
                             <div className="container">
-                                <h1 className="display-3"><strong>My Portfolio </strong> </h1>
-
-                                <h4 className="display-4"><strong>Languages I speak...</strong> </h4>
+                                <h4 className="display-4"><strong>Languages<br /> I speak...</strong> </h4>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row back">
 
                     <div className="col-4">
                         <img src={HTML} alt="logo" style={styles.images}></img>
@@ -80,7 +101,7 @@ function Portfolio() {
                     <div className="col-sm-12">
                         <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
                             <div className="container">
-                                <h1 className="display-4"><strong>All that I also use</strong></h1>
+                                <h1 className="display-4"><strong>Also in the arsenal</strong></h1>
                                 <ul>
                                     <li style={styles.techList}>
                                         <strong className="html5"> HTML 5 </strong> <strong>| </strong>
@@ -121,6 +142,7 @@ function Portfolio() {
 
             </div>
             <Projects />
+            <Footer className="portfolioFooter" />
         </div>
 
     )
