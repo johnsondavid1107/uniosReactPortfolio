@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/uniosReactPortfolio/static/css/main.592791d6.chunk.css",
-    "main.js": "/uniosReactPortfolio/static/js/main.4d05e157.chunk.js",
-    "main.js.map": "/uniosReactPortfolio/static/js/main.4d05e157.chunk.js.map",
-    "runtime-main.js": "/uniosReactPortfolio/static/js/runtime-main.29f7d5fd.js",
-    "runtime-main.js.map": "/uniosReactPortfolio/static/js/runtime-main.29f7d5fd.js.map",
+    "main.css": "/uniosReactPortfolio/static/css/main.d417625b.chunk.css",
+    "main.js": "/uniosReactPortfolio/static/js/main.90eca617.chunk.js",
+    "main.js.map": "/uniosReactPortfolio/static/js/main.90eca617.chunk.js.map",
+    "runtime-main.js": "/uniosReactPortfolio/static/js/runtime-main.ee3b3a74.js",
+    "runtime-main.js.map": "/uniosReactPortfolio/static/js/runtime-main.ee3b3a74.js.map",
     "static/css/2.1c44f44c.chunk.css": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css",
-    "static/js/2.9c0d6f16.chunk.js": "/uniosReactPortfolio/static/js/2.9c0d6f16.chunk.js",
-    "static/js/2.9c0d6f16.chunk.js.map": "/uniosReactPortfolio/static/js/2.9c0d6f16.chunk.js.map",
-    "static/js/3.8ff79bfd.chunk.js": "/uniosReactPortfolio/static/js/3.8ff79bfd.chunk.js",
-    "static/js/3.8ff79bfd.chunk.js.map": "/uniosReactPortfolio/static/js/3.8ff79bfd.chunk.js.map",
+    "static/js/2.bbc7f67e.chunk.js": "/uniosReactPortfolio/static/js/2.bbc7f67e.chunk.js",
+    "static/js/2.bbc7f67e.chunk.js.map": "/uniosReactPortfolio/static/js/2.bbc7f67e.chunk.js.map",
+    "static/js/3.10c24d5a.chunk.js": "/uniosReactPortfolio/static/js/3.10c24d5a.chunk.js",
+    "static/js/3.10c24d5a.chunk.js.map": "/uniosReactPortfolio/static/js/3.10c24d5a.chunk.js.map",
     "index.html": "/uniosReactPortfolio/index.html",
     "static/css/2.1c44f44c.chunk.css.map": "/uniosReactPortfolio/static/css/2.1c44f44c.chunk.css.map",
-    "static/css/main.592791d6.chunk.css.map": "/uniosReactPortfolio/static/css/main.592791d6.chunk.css.map",
-    "static/js/2.9c0d6f16.chunk.js.LICENSE.txt": "/uniosReactPortfolio/static/js/2.9c0d6f16.chunk.js.LICENSE.txt",
+    "static/css/main.d417625b.chunk.css.map": "/uniosReactPortfolio/static/css/main.d417625b.chunk.css.map",
+    "static/js/2.bbc7f67e.chunk.js.LICENSE.txt": "/uniosReactPortfolio/static/js/2.bbc7f67e.chunk.js.LICENSE.txt",
     "static/media/Picture1.b31a97a9.jpg": "/uniosReactPortfolio/static/media/Picture1.b31a97a9.jpg",
+    "static/media/black.effc19ab.mp4": "/uniosReactPortfolio/static/media/black.effc19ab.mp4",
     "static/media/book.ccb3eedc.svg": "/uniosReactPortfolio/static/media/book.ccb3eedc.svg",
     "static/media/directory.ab9def04.svg": "/uniosReactPortfolio/static/media/directory.ab9def04.svg",
     "static/media/fitness.0f492cd1.svg": "/uniosReactPortfolio/static/media/fitness.0f492cd1.svg",
@@ -29,14 +30,13 @@
     "static/media/planner.2b89b769.svg": "/uniosReactPortfolio/static/media/planner.2b89b769.svg",
     "static/media/question.91a7df43.svg": "/uniosReactPortfolio/static/media/question.91a7df43.svg",
     "static/media/reactBW.028a987c.png": "/uniosReactPortfolio/static/media/reactBW.028a987c.png",
-    "static/media/stickGuy.6b8b339e.svg": "/uniosReactPortfolio/static/media/stickGuy.6b8b339e.svg",
     "static/media/weather.f8a978e1.svg": "/uniosReactPortfolio/static/media/weather.f8a978e1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.29f7d5fd.js",
+    "static/js/runtime-main.ee3b3a74.js",
     "static/css/2.1c44f44c.chunk.css",
-    "static/js/2.9c0d6f16.chunk.js",
-    "static/css/main.592791d6.chunk.css",
-    "static/js/main.4d05e157.chunk.js"
+    "static/js/2.bbc7f67e.chunk.js",
+    "static/css/main.d417625b.chunk.css",
+    "static/js/main.90eca617.chunk.js"
   ]
 }
