@@ -84,7 +84,7 @@ function Home() {
 
 
 
-            <main >
+            <main className="fontStyle">
                 <div className="row">
                     <div className="col-12 d-flex justify-content-center">
                         <h1 className="about">About Me</h1>
@@ -118,16 +118,22 @@ function Home() {
                             <CardContent>
 
                                 <Typography align={"center"}>
-                                    <AiOutlineMail style={styles.white} /> <a href="mailto:johnsondavid1107@gmail.com"><button type="button" className="btn btn-outline-dark" > johnsondavid1107@gmail.com </button> </a>
-                                    <AiOutlineMail style={styles.white} />
+                                    <AiOutlineMail />
+
+                                    <a href="mailto:johnsondavid1107@gmail.com"><button type="button" className="btn btn-outline-dark fontStyle" >Email Me!</button> </a>
+
+
+
+
+                                    <AiOutlineMail />
 
                                 </Typography>
 
                                 <hr></hr>
                                 <Typography align={"center"}>
-                                    <CgFileDocument style={styles.white} /> <a href="https://docs.google.com/document/d/1xZhhXB2kmWr3OvmVnIfEepLH1sXaXpLU05UmW18sRLk/edit?usp=sharing" target="_blank">
-                                        <button type="button" className="btn btn-outline-dark" > Resume </button> </a>
-                                    <CgFileDocument style={styles.white} />
+                                    <CgFileDocument /> <a href="https://docs.google.com/document/d/1xZhhXB2kmWr3OvmVnIfEepLH1sXaXpLU05UmW18sRLk/edit?usp=sharing" target="_blank">
+                                        <button type="button" className="btn btn-outline-dark fontStyle" > Resume </button> </a>
+                                    <CgFileDocument />
                                 </Typography>
 
                             </CardContent>

@@ -142,7 +142,7 @@ function Portfolio() {
 
             </div>
             <Projects />
-            <Footer className="portfolioFooter" />
+            <Footer />
         </div>
 
     )

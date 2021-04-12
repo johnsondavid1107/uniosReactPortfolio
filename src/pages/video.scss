@@ -62,15 +62,14 @@ main {
     color: black;
     position: absolute;
     top: 100vh;
-
+  
     justify-content: center;
    
-
-    padding: 1rem;
     p{
         max-width: 100%;
         margin: 1rem auto;
         font-family: "Abel", "sans-serif";
+        padding: 1rem;
       
     }
 }

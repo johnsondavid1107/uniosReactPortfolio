@@ -24,7 +24,7 @@ class Footer extends React.Component {
                     </div>
                 </div >
                 <div className="row">
-                    <div className="col-12 text-center centerWhite">
+                    <div className="col-12 text-center centerWhite blackBack">
                         <small>© Copyright 2021 | Site by David Johnson</small>
                     </div>
 

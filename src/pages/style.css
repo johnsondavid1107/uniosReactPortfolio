@@ -57,3 +57,11 @@ ul a {
     background: white;
 
 }
+
+svg {
+    margin: 10px;
+}
+
+.blackBack {
+    background: black;
+}
