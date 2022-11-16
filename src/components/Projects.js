@@ -11,6 +11,7 @@ import Planner from "./photos/planner.svg"
 import Directory from "./photos/directory.svg"
 import Book from "./photos/book.svg"
 import Food from "./photos/food.svg"
+import QuestionMark from "./photos/question_mark.svg"
 
 import Aos from "aos";
 import "aos/dist/aos.css"
@@ -22,6 +23,16 @@ function Projects() {
 
 
     const arrayOfProjects = [
+
+        {
+            name: "Sup?",
+            description: "Social Media Platform build to encourage locals to meet/communicate with one another.  Sup uses your location to open up a chat room with those nearby.  Sup can be used for social networking, dating, peer recommendation, neighborhood alerts etc.  Try today!",
+            github: "https://github.com/johnsondavid1107/sup",
+            link: "https://supwitit.com/",
+            imageLink: QuestionMark,
+            color: "gold",
+            flip: "fade-right"
+        },
 
         {
             name: "Theres Food At Home",

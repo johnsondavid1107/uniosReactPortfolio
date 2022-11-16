@@ -131,7 +131,7 @@ function Home() {
 
                                 <hr></hr>
                                 <Typography align={"center"}>
-                                    <CgFileDocument /> <a href="https://docs.google.com/document/d/1xZhhXB2kmWr3OvmVnIfEepLH1sXaXpLU05UmW18sRLk/edit?usp=sharing" target="_blank">
+                                    <CgFileDocument /> <a href="https://docs.google.com/document/d/1qIK4fPq2yBOabwlhUGvM0SnthDIRg9AxTNg04DA77ew/edit" target="_blank">
                                         <button type="button" className="btn btn-outline-dark fontStyle" > Resume </button> </a>
                                     <CgFileDocument />
                                 </Typography>

@@ -68,10 +68,10 @@ function Portfolio() {
                 <div className="row back about">
                     <div className="col-sm-12">
                         <div className="jumbotron jumbotron-fluid text-center" style={styles.jumbotron}>
-                            <div className="container">
-                                <h4 className="display-4"><strong>Languages<br /> I speak...</strong> </h4>
 
-                            </div>
+                            <h1 className="fontStyle"><strong>Languages<br /> I speak...</strong> </h1>
+
+
                         </div>
                     </div>
                 </div>
